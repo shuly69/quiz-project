@@ -1,0 +1,37 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: cyan;
+}
+
+.link,
+.link-home {
+    text-decoration: none;
+}
+
+label {
+    color: forestgreen;
+}
+
+.error-item {
+    list-style: none;
+    background-color: #ff8763;
+    border: none;
+    padding: 5px 10px;
+    color: darkslateblue;
+}
+
+.message-color {
+    background-color: #bbff90;
+    padding: 10px;
+    color: darkslateblue;
+}
